@@ -5,7 +5,6 @@ FROM ubuntu:18.04
 MAINTAINER Robert Gonzalez <rob.d.gonz[@t]gmail.com>
 
 ARG PACKER_VER=1.4.2
-ENV USER ansible
 
 RUN apt-get update \
     && apt-get install -y jq git openssl ansible unzip \
