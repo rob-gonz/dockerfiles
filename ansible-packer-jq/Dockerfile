@@ -4,7 +4,7 @@ FROM alpine:3.10
 
 MAINTAINER Robert Gonzalez <rob.d.gonz[@t]gmail.com>
 
-ARG PACKER_VER=1.5.1
+ARG PACKER_VER=1.4.4
 ENV USER ansible
 
 RUN sed -i -e 's/v3\.6/edge/g' /etc/apk/repositories \
